@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Libre Baskerville'!important;
+  text-transform: uppercase !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#023373 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.body{
+  position: relative;
+  width: 100vw;
+  height: 100%;
+}
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh !important;
+}
+
